@@ -1,0 +1,357 @@
+
+/* universer selector */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* =======================
+    navbar part start 
+========================= */
+
+nav {
+    padding: 16px 0;
+    background: #1C1E53;
+}
+
+nav .logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-item {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav .nav-item ul {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    column-gap: 32px;
+    color: #BBBBCB;
+    cursor: pointer;
+    
+}
+
+nav .nav-item ul li {
+    transition: .4s;
+}
+
+nav .nav-item ul li:hover {
+    color: #fff;
+}
+
+
+nav .button {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav .button a {
+    padding: 16px 48px;
+    display: inline-block;
+    border: 2px solid #F4F6FC;
+    border-radius: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    transition: .4s;
+}
+
+nav .button a:hover {
+    background: #BBBBCB;
+    color: #1C1E53;
+}
+
+
+
+/* =======================
+    navbar part end  
+========================= */
+
+
+/* =======================
+    Hero  part start
+========================= */
+
+.hero-part {
+    background: #1C1E53;
+    padding: 128px 0;
+}
+
+.hero-part .left {
+    width: 50%;
+}
+
+.hero-part .left h1 {
+    font-size: 54px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 74px;
+}
+
+.hero-part .left p {
+    width: 510px;
+    font-size: 16px;
+    color: #F4F6FC;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.hero-part a {
+    margin-top: 48px;
+}
+
+.hero-part .btn1 {
+    padding: 16px 48px;
+    display: inline-block;
+    background: #fcd980;
+    border-radius: 41px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1C1E53;
+    transition: .4s;
+
+}
+
+.hero-part .container .box .left a:hover {
+    background: #BBBBCB;
+    color: #1C1E53;
+}
+
+
+.hero-part .btn2 {
+    padding: 16px 48px;
+    display: inline-block;
+    border-radius: 41px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    transition: .4s;
+    position: relative;
+}
+
+.hero-part .btn2 i {
+    margin-left: 16px;
+    position: absolute;
+    top: 58%;
+    right: 18px;
+    transform: translateY(-50%);
+}
+
+.hero-part .right {
+    width: 50%;
+}
+
+
+.hero-part .right img {
+    width: 100%;
+}
+
+
+
+
+/* =======================
+    Hero part end  
+========================= */
+
+
+/* =======================
+    work part start
+========================= */
+
+.work-part {
+    height: 500px;
+    background: #F4F6FC;
+    padding-top: 128px;
+}
+
+.work-part .left {
+    width: 40%;
+    height: 300px;
+   
+}
+
+.work-part .left h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.work-part .left a {
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    color: #2405F2;
+    font-weight: 500;
+    position: relative;
+}
+
+
+.work-part .left p {
+    width: 300px;
+    font-family: 'poppins', sans-serif;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #282938;
+}
+
+
+
+.work-part .left a i {
+    margin-left: 16px;
+    position: absolute;
+    top: 57%;
+    right: -30px;
+    transform: translateY(-50%);
+}
+
+
+
+
+.work-part .right {
+    width: 60%;
+    display: flex;
+    row-gap: 48px;
+    flex-wrap: wrap;
+}
+
+
+.work-part .right .item {
+    width: 50%;
+}
+
+
+.work-part .right .item h3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+
+.work-part .right .item p  {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 300px;
+}
+/* =======================
+    work part end
+========================= */
+
+
+/* =======================
+    project part start
+========================= */
+
+.project-part1 {
+    margin-top: 128px;
+}
+
+.project-part1 .boxxes {
+    display: flex;
+
+}
+
+.project-part1 .box1 {
+    width: 50%;
+
+}
+
+
+.project-part1 .box1 h3 {
+    font-size: 48px;
+    font-family: 'poppins', sans-serif;
+    line-height: 89%;
+}
+
+.project-part1 .box2 {
+    width: 50%;
+    
+}
+
+.project-pert {
+    margin-top: 64px;
+}
+
+.project-pert .left {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.project-pert  h4 {
+    margin: 10px 0 0  0;
+}
+
+.project-pert .left img {
+    width: 100%;
+    display: block;
+}
+
+.project-pert .left .overley {
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(#1C1E53, rgba(28, 30, 83, .42));
+    position: absolute;
+    top: 0;
+    left: -40%;
+    transition: .6 s;
+
+}
+
+.project-pert .left:hover .overley  {
+    left: 0;
+
+
+}
+
+
+.project-pert .right {
+    width: 40%;
+}
+
+
+
+/* =======================
+    project part end
+========================= */
+
+
+
